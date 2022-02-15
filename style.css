@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #448aff;
+}
+
+.container-fluid {
+    width: 410px; /*tamaño de los cuadros blancos*/
+    margin: 50px auto;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    justify-content: center;
+    background: white;
+}
+
+.inputs input[type="text"] {
+    height: 3.5rem;
+    width: 20rem;
+    background: #212121;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #c2c2c2;
+    border-radius: 2px;
+    margin-right: 4px;
+    padding: 10px;
+}
+
+.inputs input[type="submit"] {
+    height: 3.2rem;
+    width: 6.5rem;
+    background: #0a67ca;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.inputs input[type="submit"]:hover {
+    background: #0a67caa9;
+}
+
+.display {
+    text-align: center;
+    width: 400px;
+ }
+
+.wrapper {
+    margin: 0 9rem;
+    background: white;
+    height: 45vh;
+    margin: 50px auto;
+    border-radius: 2px;
+    padding-top: 80px;
+}
+
+#cityoutput {
+    margin-bottom: 50px;
+    font-style: italic;
+    color: green;
+}
+
+#temp {
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+#humedad {
+    font-weight: bold;
+}
